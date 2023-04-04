@@ -17,23 +17,7 @@ A Flutter package that helps you show a popup to your users whenever you publish
 
 ## Example
 
-<img class=mobile-image src="[https://files.readme.io/ee53dbc-demo.png](https://user-images.githubusercontent.com/56907997/229843728-cc0ec8bc-1f4a-418f-a58f-05027563fef8.png)" />
-<img class=mobile-image src="[https://files.readme.io/81b457e-html.png](https://user-images.githubusercontent.com/56907997/229843743-94dfb850-2189-4686-8f9c-1dd5e5069a2d.png)" />
-
-<style>
-  .img {
-    display: inline-block;
-  }
-  img.mobile-image {
-    width: 49%;
-    display: inline-block;
-  }
-</style>
-![Screenshot_1680620756]()
-![Screenshot_1680621240]()
-
-![](screenshots/s1.png)
-![](screenshots/s2.png)
+<img src="https://user-images.githubusercontent.com/56907997/229843728-cc0ec8bc-1f4a-418f-a58f-05027563fef8.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/56907997/229843743-94dfb850-2189-4686-8f9c-1dd5e5069a2d.png" width="45%"></img> 
 
 ## Description
 
