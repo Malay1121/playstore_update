@@ -1,7 +1,7 @@
 name: playstore_update
-description: A new Flutter package project.
-version: 0.0.1
-homepage:
+description: A package that will allow you to notify you user whenever you publish a new update on Google Play Store.
+version: 1.0.1
+homepage: https://github.com/Malay1121/playstore_update.git
 
 environment:
   sdk: '>=2.19.4 <3.0.0'

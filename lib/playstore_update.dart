@@ -14,7 +14,6 @@ class PlaystoreUpdate {
     required this.showDescription,
     required this.showVersions,
     required this.primaryColor,
-    required this.secondaryColor,
   });
   BuildContext context;
   // Enter your application's package name. Example:- com.malay.youtuber.wallpaper.
@@ -27,8 +26,6 @@ class PlaystoreUpdate {
   bool showVersions;
   // Primary color of the popup.
   Color primaryColor;
-  // Secondary color of the popup.
-  Color secondaryColor;
   void checkForUpdate() async {
     PeekanappClient peekanapp = PeekanappClient();
 
@@ -48,7 +45,6 @@ class PlaystoreUpdate {
                 showDescription: showDescription,
                 showVersions: showVersions,
                 primary: primaryColor,
-                secondary: secondaryColor,
               );
             },
           );
@@ -69,19 +65,17 @@ class UpdateDialog extends StatefulWidget {
   bool showDescription;
   bool showVersions;
   Color primary;
-  Color secondary;
 
-  UpdateDialog(
-      {Key? key,
-      required this.showDescription,
-      required this.showVersions,
-      this.version = " ",
-      required this.description,
-      required this.appLink,
-      required this.allowDismissal,
-      required this.primary,
-      required this.secondary})
-      : super(key: key);
+  UpdateDialog({
+    Key? key,
+    required this.showDescription,
+    required this.showVersions,
+    this.version = " ",
+    required this.description,
+    required this.appLink,
+    required this.allowDismissal,
+    required this.primary,
+  }) : super(key: key);
 
   @override
   State<UpdateDialog> createState() => _UpdateDialogState();
