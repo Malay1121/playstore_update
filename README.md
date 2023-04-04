@@ -16,6 +16,8 @@ and the Flutter guide for
 A Flutter package that helps you show a popup to your users whenever you publish a new update on Google Play Store.
 
 ## Example
+![Screenshot_1680620756](https://user-images.githubusercontent.com/56907997/229843728-cc0ec8bc-1f4a-418f-a58f-05027563fef8.png)
+![Screenshot_1680621240](https://user-images.githubusercontent.com/56907997/229843743-94dfb850-2189-4686-8f9c-1dd5e5069a2d.png)
 
 ![](screenshots/s1.png)
 ![](screenshots/s2.png)
