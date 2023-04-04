@@ -15,15 +15,15 @@ class PlaystoreUpdate {
     required this.showVersions,
     required this.primaryColor,
   });
-  BuildContext context;
+  final BuildContext context;
   // Enter your application's package name. Example:- com.malay.youtuber.wallpaper.
-  String packageName;
+  final String packageName;
   // Allow users to dismiss the popup and allow them to use the app.
-  bool allowDismissal;
+  final bool allowDismissal;
   // Do you want to show the app description(What's new).
-  bool showDescription;
+  final bool showDescription;
   // Do you want users to see from from which version are they upgrading to which one/
-  bool showVersions;
+  final bool showVersions;
   // Primary color of the popup.
   Color primaryColor;
   void checkForUpdate() async {
@@ -51,9 +51,6 @@ class PlaystoreUpdate {
         }
       });
     });
-
-    /// Returns [value] plus 1.
-    int addOne(int value) => value + 1;
   }
 }
 

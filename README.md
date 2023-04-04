@@ -11,29 +11,48 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# playstore_update
 
-## Features
+A Flutter package that helps you show a popup to your users whenever you publish a new update on Google Play Store.
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+## Example
 
-## Getting started
+<img src="https://user-images.githubusercontent.com/56907997/229843728-cc0ec8bc-1f4a-418f-a58f-05027563fef8.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/56907997/229843743-94dfb850-2189-4686-8f9c-1dd5e5069a2d.png" width="45%"></img> 
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## Description
 
-## Usage
+In this package you can show a popup to users whenever you publish a new update on Google Play Store. You can customize the popup according to your needs and this packages is still in development. This package is really very easy to use and beginner friendly. More feautures will be coming soon and it will make the package better and more customizable!
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+## Sample
 
-```dart
-const like = 'sample';
+#### Showing Popup in the init state
+
+```
+@override
+  void initState() {
+    // TODO: implement initState
+    PlaystoreUpdate(
+            context: context,
+            // Allow users to dismiss the popup and allow them to use the app.
+            allowDismissal: true,
+            // Enter your application's package name. Example:- com.malay.youtuber.wallpaper.
+            packageName: 'com.malay.youtuber.wallpaper',
+            // Do you want to show the app description(What's new).
+            showDescription: true,
+            // Do you want users to see from from which version are they upgrading to which one/
+            showVersions: true,
+            // Primary color of the popup.
+            primaryColor: Colors.blue)
+        .checkForUpdate();
+  }
 ```
 
-## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+
+## Author
+
+<a href="https://github.com/Malay1121"><img src="https://avatars.githubusercontent.com/u/56907997?v=3" title="Malay1121" width="80" height="80"></a>
+
+<a class="github-button" href="https://github.com/Malay1121" aria-label="Follow @Malay1121 on GitHub">Follow @Malay1121</a>
+
+<a class="github-button" href="https://www.linkedin.com/malay-patel-dev/" aria-label="LinkedIn: malay-patel-dev">LinkedIn: @Malay Patel</a>
