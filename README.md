@@ -52,7 +52,7 @@ In this package you can show a popup to users whenever you publish a new update 
 
 ## Author
 
-<a href="https://github.com/ngryman"><img src="https://avatars.githubusercontent.com/u/892048?v=3" title="ngryman" width="80" height="80"></a>
+<a href="https://github.com/Malay1121"><img src="https://avatars.githubusercontent.com/u/56907997?v=3" title="ngryman" width="80" height="80"></a>
 
 <a class="github-button" href="https://github.com/Malay1121" aria-label="Follow @Malay1121 on GitHub">Follow @Malay1121</a>
 
