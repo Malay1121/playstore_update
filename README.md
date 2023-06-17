@@ -77,8 +77,4 @@ GestureDetector(
 
 <a class="github-button" href="https://github.com/Malay1121" aria-label="Follow @Malay1121 on GitHub">Follow @Malay1121</a>
 
-<<<<<<< HEAD
 <a class="github-button" href="https://www.linkedin.com/malay-patel-dev/" aria-label="LinkedIn: malay-patel-dev">LinkedIn: @Malay Patel</a>
-=======
-<a class="github-button" href="https://www.linkedin.com/malay-patel-dev/" aria-label="LinkedIn: malay-patel-dev">LinkedIn: @Malay Patel</a>
->>>>>>> 74ded8716361c03dc68bc48d6561f8091f9355fa
