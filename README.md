@@ -21,9 +21,9 @@ A Flutter package that helps you show a popup to your users whenever you publish
 
 ## Description
 
-In this package you can show a popup to users whenever you publish a new update on Google Play Store. You can customize the popup according to your needs and this packages is still in development. This package is really very easy to use and beginner friendly. More feautures will be coming soon and it will make the package better and more customizable!
+In this package, you can show a popup to users whenever you publish a new update on Google Play Store. You can customize the popup according to your needs and this packages is still in development. This package is really very easy to use and beginner friendly. More features will be coming soon, and they will make the package better and more customizable!
 
-## Sample
+## Ekxample
 
 #### Showing Popup in the init state
 
@@ -45,6 +45,28 @@ In this package you can show a popup to users whenever you publish a new update 
             primaryColor: Colors.blue)
         .checkForUpdate();
   }
+```
+
+
+
+#### Getting Play store and local app update details
+##### Can be used to make a custom notifier for an update or show details about your app from Play Store or local app
+
+```
+GestureDetector(
+  onTap: () async {
+    // Get all the details about your app from playstore and the current version of the users.
+    PlaystoreUpdateData playstoreUpdateData = await PlaystoreUpdate(
+      // Enter your application's package name. Example:- com.malay.youtuber.wallpaper.
+      packageName: 'com.malay.youtuber.wallpaper',
+    ).getPlaystoreUpdateDetails();
+    playstoreUpdateData.version;
+  },
+  child: Text(
+    'Get App Update Information',
+    style: Theme.of(context).textTheme.headlineMedium,
+  ),
+),
 ```
 
 
