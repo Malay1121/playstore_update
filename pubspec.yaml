@@ -1,17 +1,17 @@
 name: playstore_update
 description: A package that will allow you to notify you user whenever you publish a new update on Google Play Store.
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/Malay1121/playstore_update.git
 
 environment:
-  sdk: '>=2.19.4 <3.0.0'
+  sdk: ">=2.19.4 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
   flutter_html: ^2.1.2
-  package_info_plus: ^3.0.3
+  package_info_plus: ^4.0.2
   peekanapp: ^0.0.2
   url_launcher: ^6.1.10
 
