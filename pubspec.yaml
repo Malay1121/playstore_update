@@ -1,6 +1,6 @@
 name: playstore_update
 description: A package that will allow you to notify you user whenever you publish a new update on Google Play Store.
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/Malay1121/playstore_update.git
 
 environment:

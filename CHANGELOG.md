@@ -5,3 +5,7 @@
 ## 1.0.2
 
 - Feature added to get update details so that users can create their own widget to notify their users about a new update.
+
+## 1.0.3
+
+- Feature added to get update details so that users can create their own widget to notify their users about a new update. Improved documentation

@@ -17,7 +17,7 @@ A Flutter package that helps you show a popup to your users whenever you publish
 
 ## Example
 
-<img src="https://user-images.githubusercontent.com/56907997/229843728-cc0ec8bc-1f4a-418f-a58f-05027563fef8.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/56907997/229843743-94dfb850-2189-4686-8f9c-1dd5e5069a2d.png" width="45%"></img> 
+<img src="https://user-images.githubusercontent.com/56907997/229843728-cc0ec8bc-1f4a-418f-a58f-05027563fef8.png" width="45%"></img> <img src="https://user-images.githubusercontent.com/56907997/229843743-94dfb850-2189-4686-8f9c-1dd5e5069a2d.png" width="45%"></img>
 
 ## Description
 
@@ -47,9 +47,8 @@ In this package, you can show a popup to users whenever you publish a new update
   }
 ```
 
-
-
 #### Getting Play store and local app update details
+
 ##### Can be used to make a custom notifier for an update or show details about your app from Play Store or local app
 
 ```
@@ -68,8 +67,6 @@ GestureDetector(
   ),
 ),
 ```
-
-
 
 ## Author
 
